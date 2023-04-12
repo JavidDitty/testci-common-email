@@ -27,7 +27,7 @@ public class EmailTest {
 	/**
 	 * An email that is used to test methods in the Email class.
 	 */
-	private Email email;
+	private Email email
 	
 	/**
 	 * A generic email address.
