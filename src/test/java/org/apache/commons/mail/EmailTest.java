@@ -51,7 +51,7 @@ public class EmailTest {
 			String[] bccList = { GENERIC_ADDRESS };
 			email = email.addBcc(bccList);
 			String address = email.getBccAddresses().get(0).getAddress();
-			Assert.assertEquals(bccList[0], address);
+			Assert.assertEquals(bccList[0], "WRONG_ADDRESS");
 		} catch (EmailException ignored) {
 		}
 	}
